@@ -1,0 +1,12 @@
+h1 {
+  font-family: arial, verdana, sans-serif;
+  font-size: 100px; //untuk menentukan ukuran font, font-size mempunyai nilai value px, %, dan em
+  /* font-weight: normal; //untuk membuat teks menjadi bold, font-weight mempunyai value lighter, normal, 100-900, bold, dan bolder  */
+  /* font-variant:small-caps; //untuk membuat huruf depan besar dari huruf yang lain, font-variant mempunyai value normal, dan small-caps */
+  font-style: italic; //untuk membuat font menjadi italic, font-style mempunyai value normal, italic, dan oblique
+  
+}
+p {
+  font-family: georgia, serif;
+  line-height:200px; //untuk mengatur jarak antar baris, line-height mempunyai nilai value normal, px, em
+}
