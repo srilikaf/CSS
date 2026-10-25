@@ -1,0 +1,68 @@
+/* Kelas semu yang dimiliki oleh sebuah elemen HTML, yang membuat kita dapat mendefinisikan style oada "keadaan tertentu" dari elemen tersebut.
+  Pseudo-class yang terhubungan dengan link
+    1. link
+    style default pada sebuah link (a yang memiliki href)
+    2. hover
+    style ketika kursor mouse berada diatas sebuah link atau elemen
+    3. active
+    style ketika sebuah link di-klik (keadaan aktif)
+    4. visited
+    style ketika sebuah link sudah pernah dikunjungi sebelumnya (menggunakan browser yang sama)
+
+  Pseudo-class yang berhubungan dengan posisi elemen (1)
+    1. first-child
+    memilih elemen pertama dari sebuah parent (elemen pembungkusnya)
+    2. last-child
+    memilih elemen terakhir dari sebuah parent (elemen pembungkusnya)
+    3. nth-child(n) 
+    memilih elemen ke-n dari sebuah parent (elemen pembungkusnya). 
+    n bisa berarti urutan (1), (2),... atau pola (2n), (3n+2), (4n-1) atau ganjil dan genap (even) & (odd).
+
+  Pseudo-class yang berhubungan dengan posisi elemen (2)
+    1. first-of-type
+    memilih elemen pertama dari sebuah jenis atau tipe tag
+    2. last-of-type
+    memilih elemen terakhir dari sebuah jenis atau tipe tag
+ */
+
+.hello {
+  color: orange;
+}
+
+.hello:hover {
+  color: green;
+  font-family: arial;
+  font-size: 26px;
+}
+
+.hello:active {
+  font-style: italic;
+}
+
+.hello:visited {
+  color: red;
+}
+
+li:first-child a {
+  color: green;
+}
+
+li:last-child a {
+  color: yellow;
+}
+
+li:nth-child(odd) a {
+  color: tomato;
+}
+
+li:nth-child(odd) a:hover {
+  color: red;
+}
+
+p:first-of-type {
+  color: red;
+}
+
+p:last-of-type {
+  color: green;
+}
