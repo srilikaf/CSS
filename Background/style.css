@@ -1,0 +1,21 @@
+/* background-color:; //mengatur warna pada background
+background-image:; //mengatur gambar yang akan digunakan pada background
+background-position:; //mengatur posisi gambar pada background, background-position ini memiliki nilai value top left, top center, top right, center left, center center, center right, bottom left, bottom center, bottom right, x%, y%, x-pos, dan y-pos
+background-repeat:; //mengatur jenis pengulangan gambar pada background, dan background-repeat memiliki nilai value repeat-x, repeat-y, dan no-repeat 
+
+dari ke empat diatas dapat disingkat menjadi seperti ini
+background: color url() position repeat;
+      urutannya :
+      1. color
+      2. url
+      3. position
+      4. repeat
+contoh : background: blue url(/bg1.jpg) top left no-repeat;
+*/
+
+body {
+  background-color: lightblue;
+  background-image: url(/bg1.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
