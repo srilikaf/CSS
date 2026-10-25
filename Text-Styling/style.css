@@ -1,0 +1,16 @@
+h1 {
+  font-size: 160px;
+  color: red; //ini berfungsi untuk memberikan warna pada text, kita dapat memberikan warna berdasarkan tipe value mulai dari nama warna, hexadecimal, dan rgb 
+  text-decoration: overline; //fungsi dari text-decoration untuk memberikan atau menambahkan underline, dll, text-decoration memiliki nilai value mulai dari none, underline, overline, dan line-through
+  word-spacing: 5px; //fungsi dari word-spacing untuk memberikan jarak antar kata, word-spacing ini memiliki nilai value mulai dari normal dan px
+}
+
+p {
+  text-align: justify; //fungsi dari text-align untuk mengatur format paragraf atau teks, text-align mempunyai nilai value mulai dari left, right, center, dan justify
+  text-indent: 5px; //fungsi dari text-indent untuk memberikan indentasi pada paragram, text-indent ini memiliki nilai value mulai dari px, dan persen (%) 
+  text-transform: lowercase; //fungsi dari text-transform untuk membuat teks menjadi kecil semua atau besar semua, text-transform ini memiliki nilai value mulai dari none, lowercase, uppercase, dan capitalize
+  letter-spacing: 3px; //fungsi dari letter-spacing untuk mengatur jarak antar huruf, letter-spacing ini memiliki nilai value mulai dari normal dan px
+}
+
+
+
