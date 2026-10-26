@@ -1,0 +1,27 @@
+/* CSS Inheritance
+   sebuah elemen mewarisi beberapa nilai properti yang dimiliki oleh elemen
+  parent-nya.
+
+  properti yang diwariskan
+    - color
+    - font
+    - letter-spacing
+    - line-height
+    - list-style
+    - text-align
+    - text-ident
+    - text-transform
+    - visibility
+    - white-space  
+    
+  elemen <a> tidak mewarisi nilai dari properti color, berikan nilai value inherit agar mendapatkan warisan dari perent yaitu drackgey
+*/
+
+body {
+  font-family: arial;
+  color: darkgrey;
+}
+
+a {
+  color: inherit; //inherit berfungi agar elemen yang tidak mewarisi nilai properti dari color akan mendapatkannya
+}
