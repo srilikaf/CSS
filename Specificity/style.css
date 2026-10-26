@@ -1,0 +1,17 @@
+/* CSS Specificity
+    setiap deklarasi css (selector) memiliki berat yang berbeda. berat tersebut menentukan seberapa spesifik sebuah elemen dapat dipilih 
+    oleh selector.
+
+    cara menghitung specificity
+        0     0  0      0
+        |     |  |      |
+      inline id class element 
+*/
+
+ul#sarapan li {
+  color: green;
+}
+
+.favorit { //jika ingin warna favorti tetap merah, maka berikan agar lebih berat contohnya seperti ini (ul#sarapan li.favorit)
+  color: red;
+}
